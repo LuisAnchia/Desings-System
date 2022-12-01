@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 body {
@@ -216,10 +217,11 @@ body {
 
 .h1-home {
   background-color: rgba(217, 217, 217, 0.5254901961);
-  margin: 1% 72% 10% 0%;
+  margin: 1% 68% 8% 0%;
   font-size: 32px;
   font-family: "Krub", sans-serif;
   font-weight: bold;
+  -webkit-text-stroke-width: medium;
 }
 
 .displaymain {
@@ -232,6 +234,33 @@ body {
 .displayfooter {
   display: flex;
   background-color: #01424A;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.display-div {
+  display: flex;
+  margin-top: 3%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 13%;
+}
+
+.displayarticle {
+  display: flex;
+  align-items: center;
+  gap: 4.9%;
+}
+
+.anmperson {
+  color: orangered;
+  font-size: 45px;
+  font-weight: bold;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
