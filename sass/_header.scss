@@ -1,0 +1,25 @@
+.displayheader{
+  background-image: url(../../images/img-background-header-.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3%;
+}
+
+.displayheader__flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+
+}
+
+.nav{
+ display: flex;
+}
+
+.h1-home{
+  background-color: #d9d9d986;
+  margin: 1% 72% 10% 0%;
+  font-size: 32px;
+  font-family: 'Krub', sans-serif;
+  font-weight: bold;
+}

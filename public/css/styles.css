@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -193,6 +195,43 @@ body {
   justify-content: center;
   text-align: center;
   margin-top: 5%;
+}
+
+.displayheader {
+  background-image: url(../../images/img-background-header-.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3%;
+}
+
+.displayheader__flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.nav {
+  display: flex;
+}
+
+.h1-home {
+  background-color: rgba(217, 217, 217, 0.5254901961);
+  margin: 1% 72% 10% 0%;
+  font-size: 32px;
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+}
+
+.displaymain {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+}
+
+.displayfooter {
+  display: flex;
+  background-color: #01424A;
 }
 
 /*# sourceMappingURL=styles.css.map */
