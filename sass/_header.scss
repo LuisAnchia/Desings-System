@@ -9,18 +9,32 @@
   display: flex;
   justify-content: space-between;
   margin-top: 1%;
+  margin-right: 4%;
 
 }
 
-.nav{
+.logo{
+  margin-top: 2%;
+}
+
+.displayheader__flex--nav{
  display: flex;
+}
+
+.displayheader__flex--li{
+  padding-left: 3%;
+  align-items: center;
+}
+
+.displayheader__flex--li-2{
+  display: flex;
 }
 
 .h1-home{
   background-color: #d9d9d986;
-  margin: 1% 68% 8% 0%;
+  margin: 1% 68% 7.5% 0%;
   font-size: 32px;
   font-family: 'Krub', sans-serif;
   font-weight: bold;
-  -webkit-text-stroke-width: medium;
+  -webkit-text-stroke-width: medium; 
 }

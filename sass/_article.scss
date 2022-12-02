@@ -1,22 +1,31 @@
+.p{
+  span{
+    font-family: 'Krub', sans-serif;
+    font-weight: lighter;
+   
+  }
+}
+
 .display-div{
-  display: flex;
-  margin-top: 3%;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 13%;
+  display: grid;
+  margin-top: 5%;
+  justify-content: space-around;
+  justify-items: start;
+  margin-left: 4.5%;
 
 }
 
 .displayarticle{
   display: flex;
   align-items: center;
-  gap: 4.9%;
+  gap: 3.7%;
+  margin-top: 5%;
 
 }
 
 .anmperson{
   color: orangered;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: bold;
   align-items: center;
 }
