@@ -26,6 +26,71 @@
 .anmperson{
   color: orangered;
   font-size: 30px;
-  font-weight: bold;
   align-items: center;
+  position: relative;
+  top: 16px;
+  font-family:'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+
+}
+
+  @mixin comentarios {
+    box-sizing: border-box;
+    position: absolute;
+    width: 294px;
+    height: 257px;
+    background: #FFFFFF;
+    border: 3px solid #2C5581;
+    border-radius: 15px;
+
+  }
+
+.comentarios{
+  left: 611px;
+  top: 1115px;
+  @include comentarios;
+}
+
+.comentarios2{
+  @include comentarios;
+  left: 925px;
+  top: 1115px;
+
+}
+
+.user{
+  position: relative;
+  left: 20%;
+  bottom: 18%;
+
+}
+
+.date{
+  position: relative;
+  left: 61%;
+  bottom: 50%;
+
+}
+
+.p-name{
+  position: relative;
+  left: 57%;
+  bottom: 25%
+
+}
+
+.stars{
+  position: relative;
+  left: 52%;
+  bottom: 21%;
+
+}
+
+.p-comentario{
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  bottom: 15%;
+  padding: 1% 1% 2% 2%;
+  font-weight: bold;
 }

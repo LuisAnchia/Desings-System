@@ -54,9 +54,9 @@ body {
   background-color: #F07707;
   color: black;
   text-decoration: none;
-  position: absolute;
+  position: relative;
   top: 92%;
-  left: 75%;
+  right: 23%;
   font-family: "Krub", sans-serif;
   font-weight: bold;
   border: none;
@@ -220,6 +220,10 @@ body {
   margin-right: 4%;
 }
 
+.displayheader__flex li {
+  padding: 5%;
+}
+
 .logo {
   margin-top: 2%;
 }
@@ -228,18 +232,26 @@ body {
   display: flex;
 }
 
-.displayheader__flex--li {
-  padding-left: 3%;
-  align-items: center;
-}
-
 .displayheader__flex--li-2 {
   display: flex;
 }
 
+.icon-top {
+  position: relative;
+  bottom: 7%;
+}
+
 .h1-home {
   background-color: rgba(217, 217, 217, 0.5254901961);
-  margin: 1% 68% 7.5% 0%;
+  margin: 3% 68% 6.5% 0%;
+  font-size: 32px;
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+  -webkit-text-stroke-width: medium;
+}
+
+.h1-home-2 {
+  margin: 3% 68% 6.5% 0%;
   font-size: 32px;
   font-family: "Krub", sans-serif;
   font-weight: bold;
@@ -259,32 +271,60 @@ body {
 }
 
 .displaymain_img {
-  position: absolute;
-  left: 22.5%;
+  position: relative;
+  right: 10%;
   top: 64%;
 }
 
 .displaymain_img2 {
   position: relative;
-  left: 84%;
+  right: 13%;
   top: 70%;
 }
 
 .displaymain_img3 {
   position: relative;
-  left: 71%;
+  right: 15%;
   top: 85%;
 }
 
 .displayfooter {
-  display: flex;
   background-color: #01424A;
   justify-content: space-between;
   align-items: center;
   color: white;
-  font-family: "Inter", sans-serif;
   font-size: 20px;
   margin-top: 5%;
+  display: flex;
+  gap: 14%;
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+}
+
+.ancor-display {
+  display: flex;
+  gap: 20%;
+  padding-left: 6%;
+  margin-bottom: 8%;
+  margin-top: 8%;
+}
+
+.p-footer-display {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  text-align: -webkit-center;
+  font-size: 15px;
+  margin-bottom: 1%;
+}
+
+.p-footer-display-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  font-size: 15px;
+  margin-right: 1%;
 }
 
 .p span {
@@ -310,8 +350,68 @@ body {
 .anmperson {
   color: orangered;
   font-size: 30px;
-  font-weight: bold;
   align-items: center;
+  position: relative;
+  top: 16px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.comentarios {
+  left: 611px;
+  top: 1115px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 294px;
+  height: 257px;
+  background: #FFFFFF;
+  border: 3px solid #2C5581;
+  border-radius: 15px;
+}
+
+.comentarios2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 294px;
+  height: 257px;
+  background: #FFFFFF;
+  border: 3px solid #2C5581;
+  border-radius: 15px;
+  left: 925px;
+  top: 1115px;
+}
+
+.user {
+  position: relative;
+  left: 20%;
+  bottom: 18%;
+}
+
+.date {
+  position: relative;
+  left: 61%;
+  bottom: 50%;
+}
+
+.p-name {
+  position: relative;
+  left: 57%;
+  bottom: 25%;
+}
+
+.stars {
+  position: relative;
+  left: 52%;
+  bottom: 21%;
+}
+
+.p-comentario {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  position: relative;
+  bottom: 15%;
+  padding: 1% 1% 2% 2%;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */

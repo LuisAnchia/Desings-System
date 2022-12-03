@@ -13,6 +13,12 @@
 
 }
 
+.displayheader__flex{
+  li{
+    padding: 5%;
+  }
+}
+
 .logo{
   margin-top: 2%;
 }
@@ -21,20 +27,30 @@
  display: flex;
 }
 
-.displayheader__flex--li{
-  padding-left: 3%;
-  align-items: center;
-}
-
 .displayheader__flex--li-2{
   display: flex;
 }
 
-.h1-home{
-  background-color: #d9d9d986;
-  margin: 1% 68% 7.5% 0%;
+.icon-top{
+  position: relative;
+  bottom: 7%;
+}
+
+@mixin h1 {
+  margin: 3% 68% 6.5% 0%;
   font-size: 32px;
   font-family: 'Krub', sans-serif;
   font-weight: bold;
   -webkit-text-stroke-width: medium; 
+   
+}
+
+.h1-home{
+  background-color: #d9d9d986;
+  @include h1;
+
+}
+
+.h1-home-2{
+ @include h1;
 }
