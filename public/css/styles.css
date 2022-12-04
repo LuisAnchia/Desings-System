@@ -17,7 +17,7 @@ body {
 }
 
 .buttons__titulo {
-  background-color: rgb(17, 0, 255);
+  background-color: rgba(17, 0, 255, 0.589);
   margin-right: 75%;
   border-radius: 5px;
 }
@@ -44,7 +44,79 @@ body {
 }
 .ancor__element--color:hover {
   color: white;
-  background-color: rgb(17, 0, 255);
+  background-color: rgba(17, 0, 255, 0.589);
+}
+
+.ancor__element--color-1 {
+  padding: 3% 3% 2% 3%;
+  position: relative;
+  left: 25%;
+  bottom: 62px;
+  font-size: 17px;
+  margin-bottom: 1%;
+  border-radius: 17px;
+  background-color: rgba(217, 217, 217, 0.7);
+  border: none;
+  border: none;
+  font-family: "Krub", sans-serif;
+}
+.ancor__element--color-1:hover {
+  color: white;
+  background-color: rgba(17, 0, 255, 0.589);
+}
+
+.ancor__element--color-2 {
+  padding: 3% 8% 2% 8%;
+  position: relative;
+  left: 19%;
+  bottom: 110px;
+  font-size: 38px;
+  margin-bottom: 1%;
+  border-radius: 17px;
+  background-color: rgba(217, 217, 217, 0.7);
+  border: none;
+  border: none;
+  font-family: "Krub", sans-serif;
+}
+.ancor__element--color-2:hover {
+  color: white;
+  background-color: rgba(17, 0, 255, 0.589);
+}
+
+.ancor__element--color-3 {
+  padding: 1.5% 27% 1.5% 27%;
+  position: relative;
+  left: 4%;
+  bottom: 58px;
+  font-size: 22px;
+  margin-bottom: 1%;
+  border-radius: 17px;
+  background-color: rgba(217, 217, 217, 0.7);
+  border: none;
+  border: none;
+  font-family: "Krub", sans-serif;
+}
+.ancor__element--color-3:hover {
+  color: white;
+  background-color: rgba(17, 0, 255, 0.589);
+}
+
+.ancor__element--color-4 {
+  padding: 1.5% 26% 1.5% 26%;
+  position: relative;
+  left: 14%;
+  bottom: 58px;
+  font-size: 22px;
+  margin-bottom: 1%;
+  border-radius: 17px;
+  background-color: rgba(217, 217, 217, 0.7);
+  border: none;
+  border: none;
+  font-family: "Krub", sans-serif;
+}
+.ancor__element--color-4:hover {
+  color: white;
+  background-color: rgba(17, 0, 255, 0.589);
 }
 
 .ancor__element--color-orange {
@@ -63,7 +135,7 @@ body {
 }
 .ancor__element--color-orange:hover {
   color: white;
-  background: -webkit-linear-gradient(right, #F07707, rgb(17, 0, 255));
+  background: -webkit-linear-gradient(right, #F07707, rgba(17, 0, 255, 0.589));
 }
 
 .buttons {
@@ -72,7 +144,7 @@ body {
 }
 
 .buttons__titulo {
-  background-color: rgb(17, 0, 255);
+  background-color: rgba(17, 0, 255, 0.589);
   margin-right: 5%;
   border-radius: 5px;
 }
@@ -258,6 +330,13 @@ body {
   -webkit-text-stroke-width: medium;
 }
 
+.display-prom {
+  display: flex;
+  gap: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .displaymain {
   display: flex;
   justify-content: flex-start;
@@ -415,6 +494,51 @@ body {
   bottom: 15%;
   padding: 1% 1% 2% 2%;
   font-weight: bold;
+}
+
+.h1_article {
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  -webkit-text-stroke-width: medium;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.h1_article--line {
+  border: 2px solid #000000;
+  width: 837.02px;
+  height: 0px;
+  position: relative;
+  top: 66px;
+}
+
+.article-prom {
+  display: flex;
+  gap: 1%;
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.article_prom {
+  margin-left: 5%;
+  margin-right: 0%;
+  margin-top: 3%;
+}
+
+.aricle_prom-final {
+  display: flex;
+  background-image: url(../../images/rectangle47.png);
+}
+
+.Display_flex-prom {
+  display: flex;
+  margin-left: 12%;
+  margin-right: 11%;
+  gap: 7%;
+  margin-top: 0%;
+  font-family: "Krub", sans-serif;
+  font-size: 32px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,20 @@
 
 $colorPrimary:white;
-$colorSecundary: rgb(17, 0, 255);
+$colorSecundary: rgba(17, 0, 255, 0.589);
 $colorThird: #F07707;
+@mixin btn {
+  margin-bottom: 1%;
+  border-radius: 17px;
+  background-color: rgba(217, 217, 217, 0.7);
+  &:hover{
+    color: $colorPrimary;
+    background-color: $colorSecundary;
+  }
+  border: none;
+  border: none;
+  font-family: "Krub", sans-serif;
+
+}
 
 .buttons{
   margin-top: 5%;
@@ -38,6 +51,45 @@ $colorThird: #F07707;
   }
   border: none;
 }
+
+.ancor__element--color-1{
+  padding: 3% 3% 2% 3%;
+  position: relative;
+  left: 25%;
+  bottom: 62px;
+  font-size: 17px;
+  @include btn;
+
+}
+.ancor__element--color-2{
+  padding: 3% 8% 2% 8%;
+  position: relative;
+  left: 19%;
+  bottom: 110px;
+  font-size: 38px;
+  @include btn;
+
+}
+
+.ancor__element--color-3{
+  padding: 1.5% 27% 1.5% 27%;
+  position: relative;
+  left: 4%;
+  bottom: 58px;
+  font-size: 22px;
+  @include btn;
+}
+
+.ancor__element--color-4{
+  padding: 1.5% 26% 1.5% 26%;
+  position: relative;
+  left: 14%;
+  bottom: 58px;
+  font-size: 22px;
+  @include btn;
+}
+
+
 
 .ancor__element--color-orange{
   margin-bottom: 1%;
