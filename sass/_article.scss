@@ -101,6 +101,9 @@
   -webkit-text-stroke-width: medium;
   margin-left: 5%;
   margin-right: 5%;
+  @include mobile{
+    font-size: 9px;
+  }
 }
 
 .h1_article--line{
@@ -109,6 +112,10 @@
   height: 0px;
   position: relative;
   top: 66px;
+  @include mobile{
+    width: 221px;
+    top: 27px
+  }
 }
 
 .article-prom{
@@ -117,13 +124,32 @@
   margin-top: 4%;
   margin-left: 5%;
   margin-right: 5%;
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+    img{
+      height: auto;
+      width: auto;
+      max-width: 260px;
+      max-height: 260px;
+    }
+   } 
+
 }
 
 .article_prom{
   margin-left: 5%;
   margin-right: 0%;
   margin-top: 3%;
-  
+  @include mobile{
+    img{
+      width: auto;
+      height: auto;
+      max-width: 144px;
+      max-height: 144px;
+    }
+  }
+
 }
 
 .aricle_prom-final{
@@ -141,14 +167,10 @@
   font-family: "Krub", sans-serif;
   font-size: 29px;
   text-align: center;
+  @include mobile {
+    font-size: 8px;
+    gap: 6%;
+    margin-left: 9%;
+  }
 
 }
-
-display: flex;
-    margin-left: 13%;
-    margin-right: 0%;
-    gap: 18%;
-    margin-top: 1%;
-    font-family: "Krub", sans-serif;
-    font-size: 29px;
-    text-align: center;

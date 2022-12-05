@@ -59,6 +59,12 @@ $colorThird: #F07707;
   bottom: 62px;
   font-size: 17px;
   @include btn;
+  @include mobile{
+    padding: 3% 2% 2% 2%;
+    left: 26%;
+    bottom: 35px;
+    font-size: 9px;
+  }
 
 }
 .ancor__element--color-2{
@@ -68,7 +74,12 @@ $colorThird: #F07707;
   bottom: 110px;
   font-size: 38px;
   @include btn;
-
+  @include mobile{
+    left: 20%;
+    bottom: 40px;
+    font-size: 12px;
+  }
+  
 }
 
 .ancor__element--color-3{
@@ -78,6 +89,11 @@ $colorThird: #F07707;
   bottom: 58px;
   font-size: 22px;
   @include btn;
+  @include mobile {
+    left: 2%;
+    bottom: 35px;
+    font-size: 13px;
+  }
 }
 
 .ancor__element--color-4{
@@ -87,6 +103,12 @@ $colorThird: #F07707;
   bottom: 58px;
   font-size: 22px;
   @include btn;
+  @include mobile{
+    left: 14%;
+    bottom: 34px;
+    font-size: 13px;
+  }
+  
 }
 
 
