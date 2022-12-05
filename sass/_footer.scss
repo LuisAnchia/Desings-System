@@ -28,8 +28,10 @@
   text-align: -webkit-center;
   font-size: 15px;
   margin-bottom: 1%;
+
   @include mobile {
-    font-size: 10px;
+    font-size: 5px;
+    text-align: inherit;
   }
 }
 
@@ -39,8 +41,9 @@
   gap: 11px;
   font-size: 15px;
   margin-right: 1%;
+
   @include mobile {
-    font-size: 10px;
+    font-size: 5px;
   }
 
 }

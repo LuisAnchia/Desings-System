@@ -59,6 +59,7 @@ $colorThird: #F07707;
   bottom: 62px;
   font-size: 17px;
   @include btn;
+  
   @include mobile{
     padding: 3% 2% 2% 2%;
     left: 26%;
