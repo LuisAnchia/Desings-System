@@ -130,5 +130,11 @@ $colorThird: #F07707;
     background: -webkit-linear-gradient(right, $colorThird,$colorSecundary);
   }
   border: none;
+
+  @include mobile {
+    font-size: 6px;
+    right: 27%;
+  }
+
 }
 
