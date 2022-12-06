@@ -1,0 +1,46 @@
+.displaymain{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+
+  @include mobile{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    img{
+      width: auto;
+      height: auto;
+      max-width: 90px;
+      max-height: 90px;
+    }
+  }
+}
+
+.cart-background{
+  background-image: url(../../images/carrito.png);
+  background-repeat: no-repeat;
+ 
+}
+
+.displaymain_img{
+  cursor:pointer;
+  position:relative;
+  right: 10%;
+  top: 64%; 
+
+}
+
+.displaymain_img2{
+  cursor:pointer;
+  position: relative;
+  right: 13%;
+  top: 70%;
+}
+
+.displaymain_img3{
+  cursor:pointer;
+  position: relative;
+  right: 15%;
+  top: 85%;
+}

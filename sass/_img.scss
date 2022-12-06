@@ -8,3 +8,30 @@
   padding-left: 22%;
   
 }
+
+.icon{
+  @include mobile{
+    width: 15px;
+    height: 15px;
+  }
+
+  @include tablet{
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.icon-top{
+  position: relative;
+  bottom: 7%;
+
+  @include mobile{
+    width: 15px;
+    height: 15px;
+  }
+
+  @include tablet{
+    width: 20px;
+    height: 20px;
+  }
+}
